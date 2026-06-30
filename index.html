@@ -111,7 +111,7 @@ body.dark .swipe-content {background:var(--surface);}
 
 
 /* ══ TOPBAR ══ */
-.topbar{display:flex;align-items:center;padding:14px 16px 0;gap:12px;position:relative;}
+.topbar{display:flex;align-items:center;padding:14px 16px 0;padding-top:max(14px, env(safe-area-inset-top, 14px));gap:12px;position:relative;}
 .topbar-logo{display:flex;flex-direction:column;line-height:1.2;flex:1;cursor:pointer;transition:0.2s;}
 .topbar-logo .tl-small{font-size:10px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
 .topbar-logo .tl-name{font-size:13px;font-weight:600;color:var(--primary);}
